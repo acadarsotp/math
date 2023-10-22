@@ -1,0 +1,2 @@
+\contentsline {chapter}{\numberline {1}Chapter 1: Sequential Logic}{5}{}%
+\contentsline {section}{\numberline {1.1}Deductive Logic and Logical Connectives}{5}{}%
