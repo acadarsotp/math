@@ -1,0 +1,17 @@
+\chapter{Introduction}
+
+This is a book about deductive reasoning in mathematics and mathematical proofs. Fundamental theorems regarding prime numbers are introduced in this chapter to provide an idea of what to expect later in the book.
+
+As a first proof, let's test the conjecture that there are infinitely many prime numbers. If we assume that there is a finite list of prime numbers denoted as $p_1, p_2, \ldots, p_n$, we can create a number $m$ as follows:
+
+\[
+m = p_1p_2 \ldots p_n + 1
+\]
+
+Note that $m$ is not divisible by any of the primes $p_n$.\footnote{This is because the remainder when dividing $m$ by any of the primes $p_n$ is $1$, which means $m$ is not divisible by them.}
+
+If we acknowledge the fact that every integer larger than 1 is either a prime or can be written as a product of two or more primes, then if $m$ is a prime, it can't be on the list because that would contradict the first assumption that all primes are on the list. Now, assume $m$ is a product of primes. Take $q$ as one of the primes in that product and an element on the list, so $m$ is divisible by $q$. But then again, we reach a contradiction because $m$ is not divisible by any $p_n$.
+
+Since the assumption that there is a finite amount of prime numbers reached a contradiction, there must be an infinite amount of prime numbers.
+
+\input{chapters/introduction/exercises.tex}
