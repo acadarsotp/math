@@ -1,6 +1,8 @@
 \documentclass{book}
 
-\usepackage{amsmath}  % Add any additional packages you need
+\input{preamble}
+\input{macros}
+\input{letterfonts}
 
 % Preamble settings (font size, margins, etc.)
 
@@ -8,13 +10,14 @@
 \author{Alejandro Cadarso Nieto}
 \date{\today}
 
-\def\outputfilename{Notes}
-
 \begin{document}
 
 \maketitle
-
-\tableofcontents  % Optional - Generates a table of contents
+\newpage% or \cleardoublepage
+% \pdfbookmark[<level>]{<title>}{<dest>}
+\pdfbookmark[section]{\contentsname}{toc}
+\tableofcontents
+\pagebreak
 
 % Include individual chapter documents using \include
 \include{chapters/introduction/introduction}
