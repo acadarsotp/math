@@ -1,8 +1,8 @@
-PWD c:/Users/acada/Documents/VS/math/math/how-to-prove-it-notes
+PWD c:/Users/acada/Documents/VS/math/how-to-prove-it-notes
 INPUT c:/texlive/2023/texmf.cnf
 INPUT c:/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/acada/Documents/VS/math/math/how-to-prove-it-notes/main.tex
+INPUT c:/Users/acada/Documents/VS/math/how-to-prove-it-notes/main.tex
 OUTPUT main.log
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/book.cls
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/book.cls
@@ -70,6 +70,7 @@ INPUT ./chapters/introduction/exercises.tex
 INPUT chapters/introduction/exercises.tex
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT ./chapters/chapter1/chapter1.tex
 INPUT ./chapters/chapter1/chapter1.tex
 OUTPUT chapters/chapter1/chapter1.aux
@@ -99,3 +100,6 @@ INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb
+INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
