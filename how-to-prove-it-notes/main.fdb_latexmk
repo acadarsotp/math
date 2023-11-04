@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1699127471 "c:/Users/acada/Documents/VS/math/how-to-prove-it-notes/main.tex" "main.pdf" "main" 1699127473 0
+["pdflatex"] 1699127554 "c:/Users/acada/Documents/VS/math/how-to-prove-it-notes/main.tex" "main.pdf" "main" 1699127556 0
   "c:/Users/acada/Documents/VS/math/how-to-prove-it-notes/main.tex" 1699127468 639 56eff6ba963114df30e8a9e007bc00b7 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1698881442 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1698879132 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -271,17 +271,17 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1698886748 4753603 383a31e199d96e9d74a6cf2558b44381 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1698886814 8208559 6cca7bef179a61584879b66d045dffc2 ""
   "c:/texlive/2023/texmf.cnf" 1698886726 713 e69b156964470283e0530f5060668171 ""
-  "chapters/chapter1/chapter1.aux" 1699127472 2082 fbcc01f6e234a73d92ce85e1a48d47d2 "pdflatex"
+  "chapters/chapter1/chapter1.aux" 1699127556 2082 fbcc01f6e234a73d92ce85e1a48d47d2 "pdflatex"
   "chapters/chapter1/chapter1.tex" 1697992606 209 8aa496b3394120996077033383bb0066 ""
   "chapters/chapter1/deductive-reasoning-and-logical-connectives.tex" 1697992285 49 4a0ac30acefd680bb6b65b867aee0b06 ""
-  "chapters/introduction/exercises.tex" 1699127339 898 17dd2bcceca133d714f135c0a4dcc2cb ""
-  "chapters/introduction/introduction.aux" 1699127472 2045 e752bfd1a9a3dfd67495345d95259790 "pdflatex"
+  "chapters/introduction/exercises.tex" 1699127554 898 d92864dc82d4894294f5668608887cc8 ""
+  "chapters/introduction/introduction.aux" 1699127556 2045 e752bfd1a9a3dfd67495345d95259790 "pdflatex"
   "chapters/introduction/introduction.tex" 1698189939 1387 35ce9ae2914ae909d1f409e76b9545d7 ""
   "letterfonts.tex" 1699126865 8702 300377c5f733ebe6aa4b7f8e56db5921 ""
   "macros.tex" 1699126881 3389 93000260d2aea292d29c76d4ace77a29 ""
-  "main.aux" 1699127472 2128 9ea4b30a9c8c20e646ec47469e4da252 "pdflatex"
+  "main.aux" 1699127556 2128 9ea4b30a9c8c20e646ec47469e4da252 "pdflatex"
   "main.tex" 1699127468 639 56eff6ba963114df30e8a9e007bc00b7 ""
-  "main.toc" 1699127472 336 0c9dc5ac2a7b8d568472263cf0064683 "pdflatex"
+  "main.toc" 1699127556 336 0c9dc5ac2a7b8d568472263cf0064683 "pdflatex"
   "preamble.tex" 1699126891 20053 cac64cd8837854e12008c40220fda887 ""
   (generated)
   "chapters/chapter1/chapter1.aux"
