@@ -62,6 +62,8 @@
 \definecolor{myr}{RGB}{199, 68, 64}
 \definecolor{mytheorembg}{HTML}{F2F2F9}
 \definecolor{mytheoremfr}{HTML}{00007B}
+\definecolor{myconjecturebg}{HTML}{FFFCE5}
+\definecolor{myconjecturefr}{HTML}{B9A400}
 \definecolor{mylenmabg}{HTML}{FFFAF8}
 \definecolor{mylenmafr}{HTML}{983b0f}
 \definecolor{mypropbg}{HTML}{f2fbfc}
@@ -143,6 +145,49 @@
 	,description font = \mdseries
 	,separator sign none
 }
+
+%================================
+% CONJECTURE 
+%================================
+\tcbuselibrary{theorems,skins,hooks}
+\newtcbtheorem[number within=section]{Conjecture}{Conjecture}
+{%
+	enhanced,
+	breakable,
+	colback = myconjecturebg,
+	frame hidden,
+	boxrule = 0sp,
+	borderline west = {2pt}{0pt}{myconjecturefr},
+	sharp corners,
+	detach title,
+	before upper = \tcbtitle\par\smallskip,
+	coltitle = myconjecturefr,
+	fonttitle = \bfseries\sffamily,
+	description font = \mdseries,
+	separator sign none,
+	segmentation style={solid, myconjecturefr},
+}
+{th}
+
+\tcbuselibrary{theorems,skins,hooks}
+\newtcbtheorem[number within=chapter]{conjecture}{Conjecture}
+{%
+	enhanced,
+	breakable,
+	colback = myconjecturebg,
+	frame hidden,
+	boxrule = 0sp,
+	borderline west = {2pt}{0pt}{myconjecturefr},
+	sharp corners,
+	detach title,
+	before upper = \tcbtitle\par\smallskip,
+	coltitle = myconjecturefr,
+	fonttitle = \bfseries\sffamily,
+	description font = \mdseries,
+	separator sign none,
+	segmentation style={solid, myconjecturefr},
+}
+{th}
 
 %================================
 % Corollery
@@ -588,6 +633,7 @@
 
 
 \newcommand{\thm}[2]{\begin{Theorem}{#1}{}#2\end{Theorem}}
+\newcommand{\con}[2]{\begin{Conjecture}{#1}{}#2\end{Conjecture}}
 \newcommand{\cor}[2]{\begin{Corollary}{#1}{}#2\end{Corollary}}
 \newcommand{\mlenma}[2]{\begin{Lenma}{#1}{}#2\end{Lenma}}
 \newcommand{\mprop}[2]{\begin{Prop}{#1}{}#2\end{Prop}}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.5)  6 NOV 2023 05:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.5)  6 NOV 2023 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1516,8 +1516,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Chapter 1.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 7.
+(Font)              size <5> substituted on input line 8.
 
+\g__tikzsymbols_savebox_F_0 g 0 G_10_Laughey_1_none_none_box=\box145
 (./chapters/introduction/exercises.tex)) [5]
 \openout2 = `chapters/chapter1/chapter1.aux'.
 
@@ -1544,15 +1545,12 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 37238 strings out of 474272
- 746361 string characters out of 5747519
- 1941530 words of memory out of 5000000
- 58723 multiletter control sequences out of 15000+600000
+ 37256 strings out of 474272
+ 746748 string characters out of 5747519
+ 1942530 words of memory out of 5000000
+ 58740 multiletter control sequences out of 15000+600000
  596386 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,8n,102p,590b,1419s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1572,10 +1570,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2023/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/te
 xmf-dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/local/texlive/2023/texmf-dis
 t/fonts/type1/public/newpx/pxsys.pfb>
-Output written on main.pdf (7 pages, 175431 bytes).
+Output written on main.pdf (7 pages, 177137 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
- 17 named destinations out of 1000 (max. 500000)
- 197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 202 PDF objects out of 1000 (max. 8388607)
+ 130 compressed objects within 2 object streams
+ 18 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 
