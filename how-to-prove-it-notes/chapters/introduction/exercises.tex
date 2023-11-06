@@ -88,22 +88,70 @@ We can solve this with a simple python script:
 \setminted[python]{breaklines, framesep=2mm, fontsize=\footnotesize, numbersep=5pt}
 \begin{minted}{python}
   L = []
-  for n in range (2,100):
-    prime = True
+  for n in range (2, 100):
+      prime = True
 
-    for i in range(2, int(n/2+1)):
-      if n%i == 0:
-        prime = False
+      for i in range (2, int(n/2+1)):
+          if n%i == 0:
+              prime = False
+              break
 
-    if prime:
-      L = []
-    else: 
-      L.append(n)
+      if prime:
+          L = []
+      else:
+          L.append(n)
 
-    if len(L) == 5:
-      print(L)
-      break
+      if len(L) == 5:
+          print(L)
+          break
 \end{minted}
 Wich outputs $L = [24, 25, 26, 27, 28]$.
  
- 
+\qs{}{5. Use the table in Figure I.1 and the discussion on p. 5 to find two more perfect numbers.}
+
+\sol We know that if $2^n - 1$ is prime, then $2^{n-1}(2^n -1)$ is perfect.
+For $n = 7$, $2^n - 1$ is prime so $2^{n-1}(2^n -1) = 8,128$ is perfect.
+For $n = 5$, $2^n - 1$ is prime so $2^{n-1}(2^n -1) = 496$ is perfect.
+
+\qs{}{
+  6. The sequence 3, 5, 7 is a list of three prime numbers such that each pair of adjacent numbers in the list differ by two.
+  Are there any more such “triplet primes”?
+}
+\newpage
+
+\sol Again, this can be solved using python:
+\setminted[python]{breaklines, framesep=2mm, fontsize=\footnotesize, numbersep=5pt}
+\begin{minted}{python}
+  L = []
+  for n in range (2, 10000):
+      prime = True
+
+      for i in range (2, int(n/2+1)):
+          if n%i == 0:
+              prime = False
+              break
+
+      if prime:
+          if len(L) == 0:
+              L.append(n)
+          else:
+              if n == L[-1]+2:
+                  L.append(n)
+              else:
+                  L = [n]
+
+      if len(L) == 3:
+          print(L)
+          L.pop(0)
+\end{minted}
+The script only prints the sequence $3, 5, 7$, so it seems like there aren´t any more such "triplet primes".
+\footnote{
+  According to number theory, prime triplets are of the form $(p, p+2, p+6)$ or $(p, p+4, p+6)$.
+  Wich differ from the definition given by the exercise.
+}
+
+\qs{}{
+  7. A pair of distinct positive integers (m, n) is called amicable if the sum of all positive integers smaller than n that divide n is m,
+  and the sum of all positive integers smaller than m that divide m is n.
+  Show that (220, 284) is amicable. 
+}
