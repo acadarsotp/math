@@ -75,3 +75,35 @@ There are no aparent relationships involving primes.
 
  (b) Use this method to find a prime different from 2, 5, and 11. 
 }
+
+\sol \textbf{(a)} Given said proof, we have a list of primes $p_1,p_2 \ldots p_n$.
+We can create a number $m = p_1 * p_2 * \ldots * p_n + 1$, for the given list this results in $m = 211$.
+
+\sol \textbf{(b)} With the same process we reach $m = 111$.
+
+\qs{}{4. Find five consecutive integers that are not prime.}
+
+\sol 
+We can solve this with simple python script:
+\setminted[python]{breaklines, framesep=2mm, fontsize=\footnotesize, numbersep=5pt}
+\begin{minted}{python}
+  L = []
+  for n in range (2,100):
+    prime = True
+
+    for i in range(2, int(n/2+1)):
+      if n%i == 0:
+        prime = False
+
+    if prime:
+      L = []
+    else: 
+      L.append(n)
+
+    if len(L) == 5:
+      print(L)
+      break
+\end{minted}
+Wich outputs $L = [24, 25, 26, 27, 28]$.
+ 
+ 
