@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.5)  6 NOV 2023 14:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.5)  6 NOV 2023 20:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1167,7 +1167,9 @@ Package: transparent 2022-10-27 v1.5 Transparency with color stacks
 a.sty
 Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color
  stack (HO)
-))
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/xr-hyper.sty
+Package: xr-hyper 2023-10-27 v7.01d eXternal References (DPC)
+)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tikzsymbols/tikzsymbols.sty
 Package: tikzsymbols 2021/12/14 v4.12a Some symbols created using tikz and LaTe
 X3.
@@ -1289,22 +1291,24 @@ File: tikzlibrarytrees.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 \c@tcb@cnt@Theorem=\count441
 \c@tcb@cnt@theorem=\count442
-\c@tcb@cnt@Corollary=\count443
-\c@tcb@cnt@corollary=\count444
-\c@tcb@cnt@Lenma=\count445
-\c@tcb@cnt@lenma=\count446
-\c@tcb@cnt@Prop=\count447
-\c@tcb@cnt@prop=\count448
-\c@tcb@cnt@claim=\count449
-\c@tcb@cnt@Exercise=\count450
-\c@tcb@cnt@exercise=\count451
-\c@tcb@cnt@Example=\count452
-\c@tcb@cnt@example=\count453
-\c@tcb@cnt@Definition=\count454
-\c@tcb@cnt@definition=\count455
-\c@tcb@cnt@question=\count456
-\c@tcb@cnt@qstion=\count457
-\c@tcb@cnt@wconc=\count458
+\c@tcb@cnt@Conjecture=\count443
+\c@tcb@cnt@conjecture=\count444
+\c@tcb@cnt@Corollary=\count445
+\c@tcb@cnt@corollary=\count446
+\c@tcb@cnt@Lenma=\count447
+\c@tcb@cnt@lenma=\count448
+\c@tcb@cnt@Prop=\count449
+\c@tcb@cnt@prop=\count450
+\c@tcb@cnt@claim=\count451
+\c@tcb@cnt@Exercise=\count452
+\c@tcb@cnt@exercise=\count453
+\c@tcb@cnt@Example=\count454
+\c@tcb@cnt@example=\count455
+\c@tcb@cnt@Definition=\count456
+\c@tcb@cnt@definition=\count457
+\c@tcb@cnt@question=\count458
+\c@tcb@cnt@qstion=\count459
+\c@tcb@cnt@wconc=\count460
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarycalc.code.tex
@@ -1316,9 +1320,9 @@ code.tex  v1.02, 2012/12/09
 s/tikzlibraryshadows.code.tex
 File: tikzlibraryshadows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-\pgfbs@fading@count=\count459
+\pgfbs@fading@count=\count461
 )
-\c@mylabelcounter=\count460
+\c@mylabelcounter=\count462
 \diffdbox=\box143
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titletoc.sty
@@ -1414,16 +1418,16 @@ LaTeX Info: Command `\dddot' is already robust on input line 13.
 LaTeX Info: Command `\ddddot' is already robust on input line 13.
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count461
+\scratchcounter=\count463
 \scratchdimen=\dimen332
 \scratchbox=\box144
-\nofMPsegments=\count462
-\nofMParguments=\count463
+\nofMPsegments=\count464
+\nofMParguments=\count465
 \everyMPshowfont=\toks55
-\MPscratchCnt=\count464
+\MPscratchCnt=\count466
 \MPscratchDim=\dimen333
-\MPnumerator=\count465
-\makeMPintoPDFobject=\count466
+\MPnumerator=\count467
+\makeMPintoPDFobject=\count468
 \everyMPtoPDFconversion=\toks56
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1435,7 +1439,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring ON on input line 13.
-\c@lstlisting=\count467
+\c@lstlisting=\count469
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
@@ -1516,21 +1520,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Chapter 1.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 8.
+(Font)              size <5> substituted on input line 7.
 
 \g__tikzsymbols_savebox_F_0 g 0 G_10_Laughey_1_none_none_box=\box145
-(./chapters/introduction/exercises.tex)) [5]
+[5] (./chapters/introduction/exercises.tex [6])) [7]
 \openout2 = `chapters/chapter1/chapter1.aux'.
 
- (./chapters/chapter1/chapter1.tex
-[6
+
+(./chapters/chapter1/chapter1.tex [8
 
 
 
 
 ]
 Chapter 2.
-(./chapters/chapter1/deductive-reasoning-and-logical-connectives.tex)) [7]
+(./chapters/chapter1/deductive-reasoning-and-logical-connectives.tex)) [9]
 (./main.aux (./chapters/introduction/introduction.aux)
 (./chapters/chapter1/chapter1.aux))
  ***********
@@ -1545,15 +1549,18 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 37256 strings out of 474272
- 746748 string characters out of 5747519
- 1942530 words of memory out of 5000000
- 58740 multiletter control sequences out of 15000+600000
- 596386 words of font info for 145 fonts, out of 8000000 for 9000
+ 37422 strings out of 474272
+ 750341 string characters out of 5747519
+ 1947530 words of memory out of 5000000
+ 58892 multiletter control sequences out of 15000+600000
+ 596680 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,8n,102p,590b,1419s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,10n,102p,590b,1429s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb></usr/
 local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/l
@@ -1567,13 +1574,14 @@ ive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
 /2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
 23/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2023/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/te
-xmf-dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/local/texlive/2023/texmf-dis
-t/fonts/type1/public/newpx/pxsys.pfb>
-Output written on main.pdf (7 pages, 177137 bytes).
+exmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2023/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/t
+exmf-dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/local/texlive/2023/texmf-di
+st/fonts/type1/public/newpx/pxsys.pfb>
+Output written on main.pdf (9 pages, 195711 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 130 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 500000)
- 205 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 228 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 211 words of extra memory for PDF output out of 10000 (max. 10000000)
 

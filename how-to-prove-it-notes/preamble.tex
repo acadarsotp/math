@@ -33,6 +33,7 @@
 \usepackage{xifthen}
 \usepackage{pdfpages}
 \usepackage{transparent}
+\usepackage{xr-hyper}
 
 \newcommand\mycommfont[1]{\footnotesize\ttfamily\textcolor{blue}{#1}}
 \SetCommentSty{mycommfont}
@@ -632,7 +633,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\newcommand{\thm}[2]{\begin{Theorem}{#1}{}#2\end{Theorem}}
+\newcommand{\thm}[3]{\begin{Theorem}{#1}{}#2\label{#3}\end{Theorem}}
 \newcommand{\con}[2]{\begin{Conjecture}{#1}{}#2\end{Conjecture}}
 \newcommand{\cor}[2]{\begin{Corollary}{#1}{}#2\end{Corollary}}
 \newcommand{\mlenma}[2]{\begin{Lenma}{#1}{}#2\end{Lenma}}

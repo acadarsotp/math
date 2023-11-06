@@ -10,11 +10,68 @@
 One possible solution is $4,681 * 7 = 32,767$.
 
 \sol \textbf{(b)} $2^{32,767} - 1$ is composite so there exist at least two $x$ that can solve the problem.
-From the proof of \textit{Conjecture 2}, if $n$ is not prime then $n = a*b$.
+From \ref{label}, if $n$ is not prime then $n = a*b$.
 Also $2^n - 1 = (2^b - 1) * (1 + 2^b + 2^{2b} + \ldots + 2^{(a-1)b})$.
 So one possibility is $x = 2^7 - 1$.
 
 \qs{}{
   2. Make some conjectures about the values of $n$ for which $3^n - 1$ is prime or the values of $n$ for which $3^n - 2^n$ is prime.
   (You might start by making a table similar to \textit{Figure I.1})
+}
+
+\sol \begin{table}[h]
+  \centering
+  \label{tab:3n_minus_1}
+  \begin{tabular}{|c|c|}
+    \hline
+    $n$ & $3^n - 1$\\
+    \hline
+    1 & 2\\
+    2 & 8\\
+    3 & 26\\
+    4 & 80\\
+    5 & 242\\
+    6 & 728\\
+    7 & 2,186\\
+    8 & 6,560\\
+    9 & 19,682\\
+    10 & 59,408\\
+    \hline
+  \end{tabular}
+  \caption{Values of $3^n - 1$ fom 1 to 10}
+\end{table}
+
+\con{}{For every positive integer $n$,  $3^n - 1$  is even.}
+
+\begin{table}[h]
+  \centering
+  \label{tab:3n_minus_2n}
+  \begin{tabular}{|c|c|}
+    \hline
+    $n$ & $3^n - 2^n$\\
+    \hline
+    1 & 0\\
+    2 & 1\\
+    3 & 5\\
+    4 & 19\\
+    5 & 65\\
+    6 & 211\\
+    7 & 665\\
+    8 & 2,059\\
+    9 & 6,305\\
+    10 & 19,171\\
+    \hline
+  \end{tabular}
+  \caption{Values of $3^n - 2^n$ fom 1 to 10}
+\end{table}
+
+\con{}{For every positive integer $n>1$,  $3^n - 2^n$  is odd.}
+There are no aparent relationships involving primes.  
+
+\qs{}{
+ *3. The proof of Theorem 3 gives a method for finding a prime number different from any in a given list of prime numbers.
+
+ (a) Use this method to find a prime different from 2, 3, 5, and 7.
+
+ (b) Use this method to find a prime different from 2, 5, and 11. 
 }
