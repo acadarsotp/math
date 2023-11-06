@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.5)  6 NOV 2023 21:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.5)  6 NOV 2023 21:57
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1448,7 +1448,7 @@ runsystem(command -v pygmentize && touch main.aex)...executed.
 runsystem(rm main.aex)...executed.
 
  (./main.aux
-(./chapters/introduction/introduction.aux))
+(./chapters/introduction/introduction.aux) (./chapters/chapter1/chapter1.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 13.
@@ -1617,7 +1617,10 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-(./main.toc)
+(./main.toc
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+)
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
@@ -1691,11 +1694,11 @@ runsystem(rm main.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 40336 strings out of 474272
- 815107 string characters out of 5747519
- 1948530 words of memory out of 5000000
- 61745 multiletter control sequences out of 15000+600000
- 595939 words of font info for 144 fonts, out of 8000000 for 9000
+ 40347 strings out of 474272
+ 815350 string characters out of 5747519
+ 1947530 words of memory out of 5000000
+ 61754 multiletter control sequences out of 15000+600000
+ 596848 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,10n,102p,590b,1429s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb></us
@@ -1709,16 +1712,17 @@ al/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
 exlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
 ive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
 /2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
-23/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/202
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/20
-23/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/202
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2023/
-texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/local/texlive/2023/texmf-d
-ist/fonts/type1/public/newpx/pxsys.pfb>
-Output written on main.pdf (9 pages, 195395 bytes).
+23/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2023/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2023/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2023/tex
+mf-dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/local/texlive/2023/texmf-dist
+/fonts/type1/public/newpx/pxsys.pfb>
+Output written on main.pdf (9 pages, 205619 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 147 compressed objects within 2 object streams
+ 234 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
  29 named destinations out of 1000 (max. 500000)
  211 words of extra memory for PDF output out of 10000 (max. 10000000)
 
