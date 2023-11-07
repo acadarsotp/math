@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{k}{def} \PYG{n+nf}{find\PYGZus{}divisors}\PYG{p}{(}\PYG{n}{number}\PYG{p}{):}
+      \PYG{n}{divisors} \PYG{o}{=} \PYG{p}{[]}
+      \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{number}\PYG{p}{):}
+          \PYG{k}{if} \PYG{n}{number} \PYG{o}{\PYGZpc{}} \PYG{n}{i} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{:}
+              \PYG{n}{divisors}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{i}\PYG{p}{)}
+      \PYG{k}{return} \PYG{n}{divisors}
+
+  \PYG{k}{def} \PYG{n+nf}{check\PYGZus{}amicable}\PYG{p}{(}\PYG{n}{m}\PYG{p}{,}\PYG{n}{n}\PYG{p}{):}
+      \PYG{n}{divm} \PYG{o}{=} \PYG{n}{find\PYGZus{}divisors}\PYG{p}{(}\PYG{n}{m}\PYG{p}{)}
+      \PYG{n}{divn} \PYG{o}{=} \PYG{n}{find\PYGZus{}divisors}\PYG{p}{(}\PYG{n}{n}\PYG{p}{)}
+
+      \PYG{k}{if} \PYG{n+nb}{sum}\PYG{p}{(}\PYG{n}{divm}\PYG{p}{)} \PYG{o}{==} \PYG{n}{n} \PYG{o+ow}{and} \PYG{n+nb}{sum}\PYG{p}{(}\PYG{n}{divn}\PYG{p}{)} \PYG{o}{==} \PYG{n}{m}\PYG{p}{:}
+          \PYG{k}{return} \PYG{k+kc}{True}
+      \PYG{k}{else}\PYG{p}{:}
+          \PYG{k}{return} \PYG{k+kc}{False}
+
+  \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{check\PYGZus{}amicable}\PYG{p}{(}\PYG{l+m+mi}{220}\PYG{p}{,}\PYG{l+m+mi}{284}\PYG{p}{))}
+\end{Verbatim}
