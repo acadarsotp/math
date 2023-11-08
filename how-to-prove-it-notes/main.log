@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.5)  7 NOV 2023 14:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.5)  8 NOV 2023 10:57
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1448,14 +1448,17 @@ runsystem(command -v pygmentize && touch main.aex)...executed.
 runsystem(rm main.aex)...executed.
 
  (./main.aux
-(./chapters/introduction/introduction.aux) (./chapters/chapter1/chapter1.aux))
+(./chapters/introduction/introduction.aux) (./chapters/chapter1/chapter1.aux
+
+LaTeX Warning: Label `tab:3n_minus_2n' multiply defined.
+
+))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 13.
 LaTeX Font Info:    Trying to load font information for OML+npxmi on input line
  13.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/newpx/omlnpxmi.fd
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
 LaTeX Font Info:    ... okay on input line 13.
@@ -1677,14 +1680,23 @@ C.pygtex))) [8]
 
  (./chapters/chapter1/chapter1.tex
 Chapter 2.
-(./chapters/chapter1/deductive-reasoning-and-logical-connectives.tex)) [9
+(./chapters/chapter1/deductive-reasoning-and-logical-connectives.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)) [9
 
 
 
 
-]
-(./main.aux (./chapters/introduction/introduction.aux)
-(./chapters/chapter1/chapter1.aux))
+] [10
+pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.24 \include{chapters/chapter1/chapter1}
+                                         ] (./main.aux
+(./chapters/introduction/introduction.aux) (./chapters/chapter1/chapter1.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
@@ -1697,17 +1709,20 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 runsystem(rm main.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 40381 strings out of 474272
- 816941 string characters out of 5747519
+ 40547 strings out of 474272
+ 820511 string characters out of 5747519
  1952530 words of memory out of 5000000
- 61776 multiletter control sequences out of 15000+600000
+ 61931 multiletter control sequences out of 15000+600000
  597415 words of font info for 149 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,10n,102p,590b,1429s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,10n,102p,590b,1721s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb></usr/
 local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/l
@@ -1726,10 +1741,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2023/tex
 mf-dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/local/texlive/2023/texmf-dist
 /fonts/type1/public/newpx/pxsys.pfb>
-Output written on main.pdf (9 pages, 213619 bytes).
+Output written on main.pdf (10 pages, 223485 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 161 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 262 PDF objects out of 1000 (max. 8388607)
+ 180 compressed objects within 2 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 223 words of extra memory for PDF output out of 10000 (max. 10000000)
 
