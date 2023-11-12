@@ -74,6 +74,128 @@
 
 \sol \textbf{(d)} $\neg (P \land R) \land \neg (Q \land S)$
 
+\qs{}{
+    5. Which of the following expressions are well-formed formulas? 
+
+        (a) $\neg (\neg P \lor \neg \neg Q)$.
+
+        (b) $\neg (P, Q, \land R)$.
+
+        (c) $P \land \neg P$.
+
+        (d) $(P \land Q)(P \lor Q)$.
+}
+
+\sol \textbf{(b)} and \textbf{(d)} are not well-formed formulas.
+
+\qs{}{
+    *6. Let P stand for the statement “I will buy the pants” and S for the statement “I will buy the shirt.”
+    What English sentences are represented by the following formulas?
+
+        (a) $\neg (P \land \neg S)$.
+
+        (b) $\neg P \land \neg S$.
+
+        (c) $\neg P \lor \neg S$.
+}
+
+\sol \textbf{(a)} I won't buy the pants but not the shirt. 
+
+\sol \textbf{(b)} I won't buy the pants and I won't buy the shirt.
+
+\sol \textbf{(c)} I won't buy the pants or I won't buy the shirt.
+
+\qs{}{
+    7. Let S stand for the statement “Steve is happy” and G for “George is happy.” 
+    What English sentences are represented by the following formulas?
+
+        (a) $(S \lor G) \land (\neg S \lor \neg G)$.
+
+        (b) $[S \lor (G \land \neg S)] \lor \neg G$.
+
+        (c) $S \lor [G \land (\neg S \lor \neg G)]$.
+}
+
+\newpage
+
+\sol \textbf{(a)} Either Steve or George is happy, but either Steve or George is not happy.
+
+\sol \textbf{(b)} Either Steve is happy or Steve is not happy and George is happy, or George is not happy. 
+
+\sol \textbf{(c)} Either Steve is happy, or George is happy but Steve is not happy or George is not happy.
+
+\qs{}{
+    8. Let T stand for the statement “Taxes will go up” and D for “The deficit will go up.”
+    What English sentences are represented by the following formulas?
+
+        (a) $T \lor D$.
+
+        (b) $\neg (T \land D) \land \neg (\neg T \land \neg D)$.
+
+        (c) $(T \land \neg D) \lor (D \land \neg T)$.
+}
+
+\sol \textbf{(a)} Taxes will go up or the deficit will go up.
+
+\sol \textbf{(b)} Not both Taxes and deficit will go up, but not both taxes and deficit won't go up.
+
+\sol \textbf{(c)} Either taxes will go up and the deficit will go down, or the deficit will go up and taxes will go down.
+
+\qs{}{
+    9. Identify the premises and conclusions of the following deductive arguments and analyze their logical forms. 
+    Do you think the reasoning valid? 
+    (Although you will have only your intuition to guide you in answering this last question, in the next section we will develop some techniques for determining the validity of arguments.)
+
+        (a) Jane and Pete won’t both win the math prize. 
+        Pete will win either the math prize or the chemistry prize. 
+        Jane will win the math prize.
+        Therefore, Pete will win the chemistry prize.
+
+        (b) The main course will be either beef or fish.
+        The vegetable will be either peas or corn.
+        We will not have both fish as a main course and corn as a vegetable. 
+        Therefore, we will not have both beef as a main course and peas as a vegetable.
+
+        (c) Either John or Bill is telling the truth.
+        Either Sam or Bill is lying.
+        Therefore, either John is telling the truth or Sam is lying.
+
+        (d) Either sales will go up and the boss will be happy, or expenses will go up and the boss won’t be happy. 
+        Therefore, sales and expenses will not both go up.
+}
+
+\sol \textbf{(a)} 
+    \begin{align*}
+        \neg (J_m &\land P_m)\\
+        P_m &\lor P_q\\ 
+              &J_m\\
+              &\therefore P_q
+    \end{align*}
+  
+\sol \textbf{(b)} 
+    \begin{align*}
+        M_f &\lor M_b\\
+        V_p &\lor V_c\\ 
+        \neg (M_f &\land V_c)\\
+        &\therefore \neg (M_b \land V_p) 
+    \end{align*}
+  
+\sol \textbf{(c)}
+    \begin{align*}
+        J_t &\lor B_t\\
+        \neg S_t &\lor \neg B_t\\ 
+             &\therefore (J_t \lor \neg S_t)
+    \end{align*}
+  
+\sol \textbf{(d)}
+    \begin{align*}
+        (S \land B) &\lor (E \land \neg B)\\
+                    &\therefore \neg (S \land E)
+    \end{align*}
+  
+
+
+
 
 
 
