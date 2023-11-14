@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.5)  12 NOV 2023 22:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.5)  14 NOV 2023 19:02
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1283,6 +1283,27 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 runsystem(mkdir -p _minted-main)...executed.
 
 
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen337
+\captionmargin=\dimen338
+\caption@leftmargin=\dimen339
+\caption@rightmargin=\dimen340
+\caption@width=\dimen341
+\caption@indent=\dimen342
+\caption@parindent=\dimen343
+\caption@hangindent=\dimen344
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count388
+\c@continuedfloat=\count389
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tikzsymbols/tikzsymbols.sty
 Package: tikzsymbols 2021/12/14 v4.12a Some symbols created using tikz and LaTe
 X3.
@@ -1294,7 +1315,7 @@ File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
 code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen337
+\arrowsize=\dimen345
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarydecorations.pathmorphing.code.tex
@@ -1302,14 +1323,14 @@ s/tikzlibrarydecorations.pathmorphing.code.tex
 s/tikzlibrarydecorations.code.tex
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
 s.code.tex
-\pgfdecoratedcompleteddistance=\dimen338
-\pgfdecoratedremainingdistance=\dimen339
-\pgfdecoratedinputsegmentcompleteddistance=\dimen340
-\pgfdecoratedinputsegmentremainingdistance=\dimen341
-\pgf@decorate@distancetomove=\dimen342
-\pgf@decorate@repeatstate=\count388
-\pgfdecorationsegmentamplitude=\dimen343
-\pgfdecorationsegmentlength=\dimen344
+\pgfdecoratedcompleteddistance=\dimen346
+\pgfdecoratedremainingdistance=\dimen347
+\pgfdecoratedinputsegmentcompleteddistance=\dimen348
+\pgfdecoratedinputsegmentremainingdistance=\dimen349
+\pgf@decorate@distancetomove=\dimen350
+\pgf@decorate@repeatstate=\count390
+\pgfdecorationsegmentamplitude=\dimen351
+\pgfdecorationsegmentlength=\dimen352
 )
 \tikz@lib@dec@box=\box151
 )
@@ -1319,109 +1340,111 @@ brarydecorations.pathmorphing.code.tex))
 s/tikzlibrarytrees.code.tex
 File: tikzlibrarytrees.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-\l__tikzsymbols_Moai_thickness_dim=\dimen345
-\l__tikzsymbols_Kochtopf_nr_arguments_int=\count389
-\l__tikzsymbols_Bratpfanne_nr_arguments_int=\count390
-\l__tikzsymbols_Schneebesen_nr_arguments_int=\count391
-\l__tikzsymbols_Sieb_nr_arguments_int=\count392
-\l__tikzsymbols_Purierstab_nr_arguments_int=\count393
-\l__tikzsymbols_Dreizack_nr_arguments_int=\count394
-\l__tikzsymbols_Backblech_nr_arguments_int=\count395
-\l__tikzsymbols_Ofen_nr_arguments_int=\count396
-\l__tikzsymbols_Pfanne_nr_arguments_int=\count397
-\l__tikzsymbols_Herd_nr_arguments_int=\count398
-\l__tikzsymbols_Saftpresse_nr_arguments_int=\count399
-\l__tikzsymbols_Schussel_nr_arguments_int=\count400
-\l__tikzsymbols_Schaler_nr_arguments_int=\count401
-\l__tikzsymbols_Reibe_nr_arguments_int=\count402
-\l__tikzsymbols_Flasche_nr_arguments_int=\count403
-\l__tikzsymbols_Nudelholz_nr_arguments_int=\count404
-\l__tikzsymbols_Knoblauchpresse_nr_arguments_int=\count405
-\l__tikzsymbols_Sadey_nr_arguments_int=\count406
-\l__tikzsymbols_dSadey_nr_arguments_int=\count407
-\l__tikzsymbols_Changey_nr_arguments_int=\count408
-\l__tikzsymbols_dChangey_nr_arguments_int=\count409
-\l__tikzsymbols_cChangey_nr_arguments_int=\count410
-\l__tikzsymbols_dcChangey_nr_arguments_int=\count411
-\l__tikzsymbols_Annoey_nr_arguments_int=\count412
-\l__tikzsymbols_dAnnoey_nr_arguments_int=\count413
-\l__tikzsymbols_Smiley_nr_arguments_int=\count414
-\l__tikzsymbols_dSmiley_nr_arguments_int=\count415
-\l__tikzsymbols_Laughey_nr_arguments_int=\count416
-\l__tikzsymbols_dLaughey_nr_arguments_int=\count417
-\l__tikzsymbols_Neutrey_nr_arguments_int=\count418
-\l__tikzsymbols_dNeutrey_nr_arguments_int=\count419
-\l__tikzsymbols_Winkey_nr_arguments_int=\count420
-\l__tikzsymbols_oldWinkey_nr_arguments_int=\count421
-\l__tikzsymbols_dWinkey_nr_arguments_int=\count422
-\l__tikzsymbols_olddWinkey_nr_arguments_int=\count423
-\l__tikzsymbols_Sey_nr_arguments_int=\count424
-\l__tikzsymbols_dSey_nr_arguments_int=\count425
-\l__tikzsymbols_Xey_nr_arguments_int=\count426
-\l__tikzsymbols_dXey_nr_arguments_int=\count427
-\l__tikzsymbols_Innocey_nr_arguments_int=\count428
-\l__tikzsymbols_wInnocey_nr_arguments_int=\count429
-\l__tikzsymbols_dInnocey_nr_arguments_int=\count430
-\l__tikzsymbols_Cooley_nr_arguments_int=\count431
-\l__tikzsymbols_dCooley_nr_arguments_int=\count432
-\l__tikzsymbols_Tongey_nr_arguments_int=\count433
-\l__tikzsymbols_dTongey_nr_arguments_int=\count434
-\l__tikzsymbols_Nursey_nr_arguments_int=\count435
-\l__tikzsymbols_dNursey_nr_arguments_int=\count436
-\l__tikzsymbols_Vomey_nr_arguments_int=\count437
-\l__tikzsymbols_dVomey_nr_arguments_int=\count438
-\l__tikzsymbols_Walley_nr_arguments_int=\count439
-\l__tikzsymbols_rWalley_nr_arguments_int=\count440
-\l__tikzsymbols_dWalley_nr_arguments_int=\count441
-\l__tikzsymbols_drWalley_nr_arguments_int=\count442
-\l__tikzsymbols_Cat_nr_arguments_int=\count443
-\l__tikzsymbols_SchrodingersCat_nr_arguments_int=\count444
-\l__tikzsymbols_Ninja_nr_arguments_int=\count445
-\l__tikzsymbols_dNinja_nr_arguments_int=\count446
-\l__tikzsymbols_Sleepey_nr_arguments_int=\count447
-\l__tikzsymbols_dSleepey_nr_arguments_int=\count448
-\l__tikzsymbols_Maskey_nr_arguments_int=\count449
-\l__tikzsymbols_NiceReapey_nr_arguments_int=\count450
-\l__tikzsymbols_Strichmaxerl_nr_arguments_int=\count451
-\l__tikzsymbols_Person_nr_arguments_int=\count452
-\l__tikzsymbols_Heart_nr_arguments_int=\count453
-\l__tikzsymbols_dHeart_nr_arguments_int=\count454
-\l__tikzsymbols_HeartBroken_nr_arguments_int=\count455
-\l__tikzsymbols_Candle_nr_arguments_int=\count456
-\l__tikzsymbols_Fire_nr_arguments_int=\count457
-\l__tikzsymbols_Coffeecup_nr_arguments_int=\count458
-\l__tikzsymbols_Chair_nr_arguments_int=\count459
-\l__tikzsymbols_Bed_nr_arguments_int=\count460
-\l__tikzsymbols_Tribar_nr_arguments_int=\count461
-\l__tikzsymbols_Moai_nr_arguments_int=\count462
-\l__tikzsymbols_Snowman_nr_arguments_int=\count463
-\l__tikzsymbols_BasicTree_nr_arguments_int=\count464
-\l__tikzsymbols_WorstTree_nr_arguments_int=\count465
-\l__tikzsymbols_Springtree_nr_arguments_int=\count466
-\l__tikzsymbols_Summertree_nr_arguments_int=\count467
-\l__tikzsymbols_Autumntree_nr_arguments_int=\count468
-\l__tikzsymbols_Wintertree_nr_arguments_int=\count469
+\l__tikzsymbols_Moai_thickness_dim=\dimen353
+\l__tikzsymbols_Kochtopf_nr_arguments_int=\count391
+\l__tikzsymbols_Bratpfanne_nr_arguments_int=\count392
+\l__tikzsymbols_Schneebesen_nr_arguments_int=\count393
+\l__tikzsymbols_Sieb_nr_arguments_int=\count394
+\l__tikzsymbols_Purierstab_nr_arguments_int=\count395
+\l__tikzsymbols_Dreizack_nr_arguments_int=\count396
+\l__tikzsymbols_Backblech_nr_arguments_int=\count397
+\l__tikzsymbols_Ofen_nr_arguments_int=\count398
+\l__tikzsymbols_Pfanne_nr_arguments_int=\count399
+\l__tikzsymbols_Herd_nr_arguments_int=\count400
+\l__tikzsymbols_Saftpresse_nr_arguments_int=\count401
+\l__tikzsymbols_Schussel_nr_arguments_int=\count402
+\l__tikzsymbols_Schaler_nr_arguments_int=\count403
+\l__tikzsymbols_Reibe_nr_arguments_int=\count404
+\l__tikzsymbols_Flasche_nr_arguments_int=\count405
+\l__tikzsymbols_Nudelholz_nr_arguments_int=\count406
+\l__tikzsymbols_Knoblauchpresse_nr_arguments_int=\count407
+\l__tikzsymbols_Sadey_nr_arguments_int=\count408
+\l__tikzsymbols_dSadey_nr_arguments_int=\count409
+\l__tikzsymbols_Changey_nr_arguments_int=\count410
+\l__tikzsymbols_dChangey_nr_arguments_int=\count411
+\l__tikzsymbols_cChangey_nr_arguments_int=\count412
+\l__tikzsymbols_dcChangey_nr_arguments_int=\count413
+\l__tikzsymbols_Annoey_nr_arguments_int=\count414
+\l__tikzsymbols_dAnnoey_nr_arguments_int=\count415
+\l__tikzsymbols_Smiley_nr_arguments_int=\count416
+\l__tikzsymbols_dSmiley_nr_arguments_int=\count417
+\l__tikzsymbols_Laughey_nr_arguments_int=\count418
+\l__tikzsymbols_dLaughey_nr_arguments_int=\count419
+\l__tikzsymbols_Neutrey_nr_arguments_int=\count420
+\l__tikzsymbols_dNeutrey_nr_arguments_int=\count421
+\l__tikzsymbols_Winkey_nr_arguments_int=\count422
+\l__tikzsymbols_oldWinkey_nr_arguments_int=\count423
+\l__tikzsymbols_dWinkey_nr_arguments_int=\count424
+\l__tikzsymbols_olddWinkey_nr_arguments_int=\count425
+\l__tikzsymbols_Sey_nr_arguments_int=\count426
+\l__tikzsymbols_dSey_nr_arguments_int=\count427
+\l__tikzsymbols_Xey_nr_arguments_int=\count428
+\l__tikzsymbols_dXey_nr_arguments_int=\count429
+\l__tikzsymbols_Innocey_nr_arguments_int=\count430
+\l__tikzsymbols_wInnocey_nr_arguments_int=\count431
+\l__tikzsymbols_dInnocey_nr_arguments_int=\count432
+\l__tikzsymbols_Cooley_nr_arguments_int=\count433
+\l__tikzsymbols_dCooley_nr_arguments_int=\count434
+\l__tikzsymbols_Tongey_nr_arguments_int=\count435
+\l__tikzsymbols_dTongey_nr_arguments_int=\count436
+\l__tikzsymbols_Nursey_nr_arguments_int=\count437
+\l__tikzsymbols_dNursey_nr_arguments_int=\count438
+\l__tikzsymbols_Vomey_nr_arguments_int=\count439
+\l__tikzsymbols_dVomey_nr_arguments_int=\count440
+\l__tikzsymbols_Walley_nr_arguments_int=\count441
+\l__tikzsymbols_rWalley_nr_arguments_int=\count442
+\l__tikzsymbols_dWalley_nr_arguments_int=\count443
+\l__tikzsymbols_drWalley_nr_arguments_int=\count444
+\l__tikzsymbols_Cat_nr_arguments_int=\count445
+\l__tikzsymbols_SchrodingersCat_nr_arguments_int=\count446
+\l__tikzsymbols_Ninja_nr_arguments_int=\count447
+\l__tikzsymbols_dNinja_nr_arguments_int=\count448
+\l__tikzsymbols_Sleepey_nr_arguments_int=\count449
+\l__tikzsymbols_dSleepey_nr_arguments_int=\count450
+\l__tikzsymbols_Maskey_nr_arguments_int=\count451
+\l__tikzsymbols_NiceReapey_nr_arguments_int=\count452
+\l__tikzsymbols_Strichmaxerl_nr_arguments_int=\count453
+\l__tikzsymbols_Person_nr_arguments_int=\count454
+\l__tikzsymbols_Heart_nr_arguments_int=\count455
+\l__tikzsymbols_dHeart_nr_arguments_int=\count456
+\l__tikzsymbols_HeartBroken_nr_arguments_int=\count457
+\l__tikzsymbols_Candle_nr_arguments_int=\count458
+\l__tikzsymbols_Fire_nr_arguments_int=\count459
+\l__tikzsymbols_Coffeecup_nr_arguments_int=\count460
+\l__tikzsymbols_Chair_nr_arguments_int=\count461
+\l__tikzsymbols_Bed_nr_arguments_int=\count462
+\l__tikzsymbols_Tribar_nr_arguments_int=\count463
+\l__tikzsymbols_Moai_nr_arguments_int=\count464
+\l__tikzsymbols_Snowman_nr_arguments_int=\count465
+\l__tikzsymbols_BasicTree_nr_arguments_int=\count466
+\l__tikzsymbols_WorstTree_nr_arguments_int=\count467
+\l__tikzsymbols_Springtree_nr_arguments_int=\count468
+\l__tikzsymbols_Summertree_nr_arguments_int=\count469
+\l__tikzsymbols_Autumntree_nr_arguments_int=\count470
+\l__tikzsymbols_Wintertree_nr_arguments_int=\count471
 )
-\c@tcb@cnt@Theorem=\count470
-\c@tcb@cnt@theorem=\count471
-\c@tcb@cnt@Conjecture=\count472
-\c@tcb@cnt@conjecture=\count473
-\c@tcb@cnt@Corollary=\count474
-\c@tcb@cnt@corollary=\count475
-\c@tcb@cnt@Lenma=\count476
-\c@tcb@cnt@lenma=\count477
-\c@tcb@cnt@Prop=\count478
-\c@tcb@cnt@prop=\count479
-\c@tcb@cnt@claim=\count480
-\c@tcb@cnt@Exercise=\count481
-\c@tcb@cnt@exercise=\count482
-\c@tcb@cnt@Example=\count483
-\c@tcb@cnt@example=\count484
-\c@tcb@cnt@Definition=\count485
-\c@tcb@cnt@definition=\count486
-\c@tcb@cnt@question=\count487
-\c@tcb@cnt@qstion=\count488
-\c@tcb@cnt@wconc=\count489
+\c@tcb@cnt@Theorem=\count472
+\c@tcb@cnt@theorem=\count473
+\c@tcb@cnt@Axiom=\count474
+\c@tcb@cnt@axiom=\count475
+\c@tcb@cnt@Conjecture=\count476
+\c@tcb@cnt@conjecture=\count477
+\c@tcb@cnt@Corollary=\count478
+\c@tcb@cnt@corollary=\count479
+\c@tcb@cnt@Lenma=\count480
+\c@tcb@cnt@lenma=\count481
+\c@tcb@cnt@Prop=\count482
+\c@tcb@cnt@prop=\count483
+\c@tcb@cnt@claim=\count484
+\c@tcb@cnt@Exercise=\count485
+\c@tcb@cnt@exercise=\count486
+\c@tcb@cnt@Example=\count487
+\c@tcb@cnt@example=\count488
+\c@tcb@cnt@Definition=\count489
+\c@tcb@cnt@definition=\count490
+\c@tcb@cnt@question=\count491
+\c@tcb@cnt@qstion=\count492
+\c@tcb@cnt@wconc=\count493
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarycalc.code.tex
@@ -1433,14 +1456,14 @@ code.tex  v1.02, 2012/12/09
 s/tikzlibraryshadows.code.tex
 File: tikzlibraryshadows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-\pgfbs@fading@count=\count490
+\pgfbs@fading@count=\count494
 )
-\c@mylabelcounter=\count491
+\c@mylabelcounter=\count495
 \diffdbox=\box152
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2023/10/27 v2.16 TOC entries
-\ttl@leftsep=\dimen346
+\ttl@leftsep=\dimen354
 ))
 (./macros.tex) (./letterfonts.tex)
 runsystem(command -v pygmentize && touch main.aex)...executed.
@@ -1536,16 +1559,16 @@ LaTeX Info: Command `\dddot' is already robust on input line 13.
 LaTeX Info: Command `\ddddot' is already robust on input line 13.
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count492
-\scratchdimen=\dimen347
+\scratchcounter=\count496
+\scratchdimen=\dimen355
 \scratchbox=\box153
-\nofMPsegments=\count493
-\nofMParguments=\count494
+\nofMPsegments=\count497
+\nofMParguments=\count498
 \everyMPshowfont=\toks59
-\MPscratchCnt=\count495
-\MPscratchDim=\dimen348
-\MPnumerator=\count496
-\makeMPintoPDFobject=\count497
+\MPscratchCnt=\count499
+\MPscratchDim=\dimen356
+\MPnumerator=\count500
+\makeMPintoPDFobject=\count501
 \everyMPtoPDFconversion=\toks60
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1557,7 +1580,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring ON on input line 13.
-\c@lstlisting=\count498
+\c@lstlisting=\count502
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
@@ -1576,6 +1599,8 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
 
 
@@ -1641,23 +1666,14 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
 (Font)              size <5> substituted on input line 7.
 
 \g__tikzsymbols_savebox_F_0 g 0 G_10_Laughey_1_none_none_box=\box154
-[5] (./chapters/introduction/exercises.tex [6
-pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.70 ...tive integer $n>1$,  $3^n - 2^n$  is odd.}
-                                                  
-pdfTeX warning (ext4): destination with the same identifier (name{table.1.2}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.70 ...tive integer $n>1$,  $3^n - 2^n$  is odd.}
-                                                  ]
+[5] (./chapters/introduction/exercises.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6]
 \openout5 = `main.pyg'.
 
-
-(./_minted-main/default.pygstyle)
+ (./_minted-main/default.pygstyle)
 (./_minted-main/AE2B662AAB50D4A50BFADFAE30BF349C541C68F80C6A6F06151AFD63BAE50EB
 C.pygtex
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
@@ -1686,14 +1702,31 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-] (./chapters/chapter1/exercises-deductive.tex [10
-pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.35 \newpage
-             ] [11] [12]))) [13] (./main.aux
-(./chapters/introduction/introduction.aux) (./chapters/chapter1/chapter1.aux))
+] (./chapters/chapter1/exercises-deductive.tex [10] [11] [12]))
+(./chapters/chapter1/truth-tables.tex
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 15.
+See the caption package documentation for explanation.
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+
+ []
+
+[14]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 174.
+See the caption package documentation for explanation.
+
+)) [15] (./main.aux (./chapters/introduction/introduction.aux)
+(./chapters/chapter1/chapter1.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
@@ -1706,17 +1739,20 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 runsystem(rm main.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 40612 strings out of 474272
- 821911 string characters out of 5747519
+ 42023 strings out of 474272
+ 849185 string characters out of 5747519
  1952530 words of memory out of 5000000
- 61976 multiletter control sequences out of 15000+600000
- 597781 words of font info for 150 fonts, out of 8000000 for 9000
+ 63359 multiletter control sequences out of 15000+600000
+ 598784 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,10n,102p,590b,1727s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,10n,120p,590b,1727s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb></usr/
 local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/l
@@ -1730,16 +1766,18 @@ ive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
 /2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
 23/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2023/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2023/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2023/tex
-mf-dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/local/texlive/2023/texmf-dist
-/fonts/type1/public/newpx/pxsys.pfb></usr/local/texlive/2023/texmf-dist/fonts/t
-ype1/public/newtx/txsym.pfb>
-Output written on main.pdf (13 pages, 248421 bytes).
+exmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2023/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2023/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2023/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2023/texmf-
+dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/local/texlive/2023/texmf-dist/fo
+nts/type1/public/newpx/pxsys.pfb></usr/local/texlive/2023/texmf-dist/fonts/type
+1/public/newtx/txsym.pfb>
+Output written on main.pdf (15 pages, 283615 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 214 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
- 243 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 352 PDF objects out of 1000 (max. 8388607)
+ 252 compressed objects within 3 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 263 words of extra memory for PDF output out of 10000 (max. 10000000)
 

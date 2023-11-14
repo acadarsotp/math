@@ -1,0 +1,184 @@
+\section{Truth Tables}
+
+\dfn{Truth Table}{A Truth Table summarizes all possibilities for a given logic statement.}
+\begin{center}
+ \begin{tabular}{|c|c|c|}
+   \hline
+   $P$ & $Q$ & $P \land Q$\\
+   \hline
+   F & F & F\\
+   F & T & F\\
+   T & F & F\\
+   T & T & T\\
+   \hline
+ \end{tabular}
+ \captionof{table}{$P \land Q$}
+ \label{tab:P_and_Q}
+\end{center}
+
+
+\nt{Unless specified otherwise, in mathematics $\lor$ is inclusive.}
+
+\ex{Truth Table}{Make a truth table for the formula $\neg (P \land Q) \lor \neg R$.}
+\sol 
+\begin{table}[h]
+  \centering
+  \label{tab:not_(P_and_Q)_or_not_R }
+  \begin{tabular}{|c|c|c|c|c|c|c|}
+    \hline
+    $P$ & $Q$ & $R$ & $P \land Q$ & $\neg (P \land Q)$ & $\neg R$ & $\neg (P \land Q) \lor \neg R$\\
+    \hline 
+    F & F & F & F & T & T & T\\      
+    F & F & T & F & T & F & T\\
+    F & T & F & F & T & T & T\\
+    F & T & T & F & T & F & T\\
+    T & F & F & F & T & T & T\\
+    T & F & T & F & T & F & T\\
+    T & T & F & T & F & T & T\\ 
+    T & T & T & T & F & F & F\\
+    \hline
+  \end{tabular}
+  \caption{$\neg (P \land Q) \lor \neg R$}
+\end{table}
+
+Truth tables are to be used to study if an argument is valid.
+Consider again the following argument:
+
+\begin{tabular}{l}
+\\
+It will either rain or snow tomorrow.\\
+\\
+It's too warm for snow.\\
+\\
+Therefore, it will rain.\\
+\end{tabular}
+
+This argument is of the form: 
+\begin{align*}
+    &P \lor Q\\
+    &\neg Q\\
+          \noalign{\vspace{-8pt}}
+          \cline{1-2}
+          \noalign{\vspace{-4pt}}
+    &\therefore P\\
+\end{align*}
+
+So we can build the following truth table:
+
+\begin{table}[h]
+\centering
+\label{tab:snow_or_rain }
+\begin{tabular}{|c|c|c|c|c|}
+  \hline
+  $P$ & $Q$ & $P \lor Q$ & $\neg Q$ & $P$\\
+  \hline 
+  F & F & F & T & F\\ 
+  F & T & T & F & F\\  
+  T & F & T & T & T\\  
+  T & T & T & F & T\\
+  \hline
+\end{tabular}
+\caption{Rain or Snow Tomorrow}
+\end{table}
+
+On the previous section a valid argument was defined as one in which the conclusion is true if all premises are true. 
+For this argument, the last row of the table represents this scenario. 
+We can see that if both premises are true then the conclusion is true, therefore this is a valid argument. 
+
+\ex{Determine whether the following arguments are valid}{
+  \begin{enumerate}
+    \item Either John isn't smart and he is lucky, or he’s smart.\\
+          John is smart.\\
+          Therefore, John isn't lucky.\\ 
+    \item The butler and the cook are not both innocent.\\
+          Either the butler is lying or the cook is innocent.\\
+          Therefore, the butler is either lying or guilty.\\
+  \end{enumerate}
+}
+
+\sol \textbf{1.} 
+  \begin{align*}
+      &(\neg P \land Q) \lor P\\
+      &P\\
+            \noalign{\vspace{-8pt}}
+            \cline{1-2}
+            \noalign{\vspace{-4pt}}
+      &\therefore \neg Q\\
+  \end{align*}
+
+  The reasoning seems faulted, lets build the truth table:
+
+  \begin{table}[h]
+  \centering
+  \label{tab:smart_and_lucky }
+  \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    $P$ & $Q$ &  $(\neg P \land Q) \lor P$ & $P$ & $\neg Q$\\
+    \hline 
+    F & F & F & F & T\\   
+    F & T & T & F & F\\
+    T & F & T & T & T\\
+    T & T & T & T & F\\ 
+    \hline
+  \end{tabular}
+  \caption{John is smart and lucky, or just smart}
+\end{table}
+
+The last row shows a case in which both premises are true but the conclusion is false, so the argument is not valid.
+
+\sol \textbf{2.} 
+  \begin{align*}
+      &\neg (B_i \land C_i)\\
+      &B_l \lor C_i\\
+            \noalign{\vspace{-8pt}}
+            \cline{1-2}
+            \noalign{\vspace{-4pt}}
+      &\therefore \neg B_i \lor B_l\\
+  \end{align*}
+
+  \begin{table}[h]
+  \centering
+  \label{tab:lying_or_innocent }
+  \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    $B_i$ & $C_i$ & $B_l$ & $\neg (B_i \land C_i)$ & $B_l \lor C_i$ & $\neg B_i \lor B_l$\\ 
+    \hline 
+    F & F & F & T & F & T\\ 
+    F & F & T & T & T & T\\ 
+    F & T & F & T & T & T\\ 
+    F & T & T & T & T & T\\   
+    T & F & F & T & F & F\\
+    T & F & T & T & T & T\\
+    T & T & F & F & T & F\\
+    T & T & T & F & T & T\\    
+    \hline
+  \end{tabular}
+  \caption{The butler is lying or innocent}
+\end{table}
+
+The argument is valid.
+
+\dfn{Equivalent Formulas}{Equivalent formulas always have the same truth values.}
+
+\begin{center} 
+  \begin{tabular}{|c|c|c|c|}
+    \hline
+    $P$ & $Q$ & $\neg (P \land Q)$ & $\neg P \lor \neg Q$ \\
+    \hline 
+    F & F & T & T\\   
+    F & T & T & T\\
+    T & F & T & T\\
+    T & T & F & F\\
+    \hline
+  \end{tabular}
+  \captionof{table}{Equivalent Formulas}
+\end{center}
+
+The following is a list of equivalences that come up often in logic.
+
+\axm{De Morgan's Laws}{
+
+}{}
+
+
+

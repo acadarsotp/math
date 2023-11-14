@@ -1,4 +1,4 @@
-\section{Exercises}
+\subsection{Exercises}
 
 \qs{}{
   *1.
@@ -12,7 +12,7 @@
 One possible solution is $4,681 * 7 = 32,767$.
 
 \sol \textbf{(b)} $2^{32,767} - 1$ is composite so there exist at least two $x$ that can solve the problem.
-From \ref{label}, if $n$ is not prime then $n = a*b$.
+From \ref{thm:_mersenne_composites}, if $n$ is not prime then $n = a*b$.
 Also $2^n - 1 = (2^b - 1) * (1 + 2^b + 2^{2b} + \ldots + 2^{(a-1)b})$.
 So one possibility is $x = 2^7 - 1$.
 
@@ -119,7 +119,6 @@ For $n = 5$, $2^n - 1$ is prime so $2^{n-1}(2^n -1) = 496$ is perfect.
   6. The sequence 3, 5, 7 is a list of three prime numbers such that each pair of adjacent numbers in the list differ by two.
   Are there any more such “triplet primes”?
 }
-\newpage
 
 \sol Again, this can be solved using python:
 \setminted[python]{breaklines, framesep=2mm, fontsize=\footnotesize, numbersep=5pt}

@@ -4,10 +4,10 @@
 This is a book about deductive reasoning in mathematics and mathematical proofs. 
 Fundamental theorems regarding prime numbers are introduced in this chapter to provide an idea of what to expect later in the book.
 
-\dfn{}{A natural number $n>1$ is considered prime if and only if its only positive divisors are  $1$ and  $p$.}
+\dfn{Prime Numbers}{A natural number $n>1$ is considered prime if and only if its only positive divisors are  $1$ and  $p$.}
 
 As a first proof, let's test the conjecture that there are infinitely many prime numbers.
-\thm{}{There are infinitely many prime numbers.}{}
+\thm{Euclid's Second Second Theorem}{There are infinitely many prime numbers.}{}
 
 \begin{myproof}
 If we assume that there is a finite list of prime numbers denoted as $p_1, p_2, \ldots, p_n$, we can create a number $m$ as follows:
@@ -28,7 +28,11 @@ Then again, we reach a contradiction because $m$ is not divisible by any $p_n$.
 Since the assumption that there is a finite amount of prime numbers reached a contradiction, there must be an infinite amount of prime numbers.
 \end{myproof}
 
-\thm{}{For every composite integer $n > 1$, $2^n - 1$ will also be composite}{label}
+\thm{Mersenne Composites}{
+  For every composite integer $n > 1$, $2^n - 1$ will also be composite.
+  \footnote{The analogy is sometimes true for primes, these are called Mersenne primes.}
+}{thm:_mersenne_composites}
+
 \begin{myproof}
   If $n$ is composite then it can be expressed as  $n = ab$. 
   Let  $x = 2^b -1$ and  $y = 1 + 2^b + 2^{2b} + \ldots + 2^{(a-1)b}$.
