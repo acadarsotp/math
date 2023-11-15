@@ -45,11 +45,8 @@ Truth tables are to be used to study if an argument is valid.
 Consider again the following argument:
 
 \begin{tabular}{l}
-\\
 It will either rain or snow tomorrow.\\
-\\
 It's too warm for snow.\\
-\\
 Therefore, it will rain.\\
 \end{tabular}
 
@@ -62,6 +59,8 @@ This argument is of the form:
           \noalign{\vspace{-4pt}}
     &\therefore P\\
 \end{align*}
+
+\newpage
 
 So we can build the following truth table:
 
@@ -82,7 +81,7 @@ So we can build the following truth table:
 \end{table}
 
 On the previous section a valid argument was defined as one in which the conclusion is true if all premises are true. 
-For this argument, the last row of the table represents this scenario. 
+For this argument, the second to last row of the table represents this scenario. 
 We can see that if both premises are true then the conclusion is true, therefore this is a valid argument. 
 
 \ex{Determine whether the following arguments are valid}{
@@ -121,7 +120,7 @@ We can see that if both premises are true then the conclusion is true, therefore
     T & T & T & T & F\\ 
     \hline
   \end{tabular}
-  \caption{John is smart and lucky, or just smart}
+  \caption{John is Smart and Lucky, or just smart}
 \end{table}
 
 The last row shows a case in which both premises are true but the conclusion is false, so the argument is not valid.
@@ -135,6 +134,8 @@ The last row shows a case in which both premises are true but the conclusion is 
             \noalign{\vspace{-4pt}}
       &\therefore \neg B_i \lor B_l\\
   \end{align*}
+
+  \newpage
 
   \begin{table}[h]
   \centering
@@ -153,7 +154,7 @@ The last row shows a case in which both premises are true but the conclusion is 
     T & T & T & F & T & T\\    
     \hline
   \end{tabular}
-  \caption{The butler is lying or innocent}
+  \caption{The Butler is Lying or Innocent}
 \end{table}
 
 The argument is valid.
@@ -177,8 +178,90 @@ The argument is valid.
 The following is a list of equivalences that come up often in logic.
 
 \axm{De Morgan's Laws}{
-
+    \centering
+    $\neg (P \lor Q)$ is equivalent to $\neg P \land \neg Q$.\\ 
+    $\neg (P \land Q)$ is equivalent to $\neg P \lor \neg Q$. 
 }{}
+
+\axm{Commutative Laws}{
+    \centering
+    $P \land Q$ is equivalent to $Q \land P$.\\
+    $P \lor Q$ is equivalent to $Q \lor P$.
+}{}
+
+\axm{Associative Laws}{
+    \centering
+    $P \land (Q \land R)$ is equivalent to $(P \land Q) \land R$.\\
+    $P \lor (Q \lor R)$ is equivalent to $(P \lor Q) \lor R$.
+}{}
+
+\axm{Idempotent Laws}{
+    \centering
+    $P \land P$ is equivalent to $P$.\\
+    $P \lor P$ is equivalent to $P$.
+}{}
+
+\axm{Distributive Laws}{
+    \centering
+    $P \land (Q \lor R)$ is equivalent to $(P \land Q) \lor (P \land R)$.\\
+    $P \lor (Q \land R)$ is equivalent to $(P \lor Q) \land (P \lor R)$.
+}{}
+
+\axm{Absorption Laws}{
+    \centering
+    $P \lor (P \land Q)$ is equivalent to $P$.\\
+    $P \land (P \lor Q)$ is equivalent to $P$.
+}{}
+
+\axm{Double Negation Law}{
+    \centering
+    $\neg \neg P$ is equivalent to $P$.
+}{}
+
+\ex{Find simpler formulas equivalent to these formulas}{
+  \begin{enumerate}
+    \item $\neg (P \lor \neg Q)$.
+    \item $\neg (Q \land \neg P) \lor P$.
+  \end{enumerate}
+}
+
+\sol \textbf{1.} $\neg (P \lor \neg Q)$ is equivalent to $\neg P \land Q$.\\
+\sol \textbf{2.} $\neg (Q \land \neg P)$ is equivalent to $\neg Q \lor P$.
+We have $(\neg Q \lor P) \lor P$ which is equivalent to $\neg Q \lor P$.
+
+\dfn{Tautology}{A Tautology is a formula which is always true.}
+\dfn{Contradiction}{A Contradiction is a formula which is always false.}
+
+\axm{Tautology Laws}{
+    \centering
+    $P \land$(a tautology) is equivalent to $P$.\\
+    $P \lor$(a tautology) is a tautology.\\
+    $\neg$(a tautology) is a contradiction.     
+}{}
+
+\axm{Contradiction Laws}{
+    \centering
+    $P \land$(a contradiction) is a contradiction.\\
+    $P \lor$(a contradiction) is equivalent to $P$.\\
+    $\neg$(a contradiction) is a tautology.
+}{}
+
+\ex{Find simpler formulas equivalent to these formulas}{
+  \begin{enumerate}
+    \item $P \lor (Q \land \neg P)$.
+    \item $\neg (P \lor (Q \land \neg R)) \land Q$.
+  \end{enumerate}
+}
+
+\sol \textbf{1.} 
+$P \lor (Q \land \neg P)$ is equivalent to $(P \lor Q) \land (P \lor \neg P)$, which simplifies to $P \lor Q$.\\
+\sol \textbf{2.}
+$\neg(P \lor (Q \land \neg R))$ is equivalent to $\neg P \land \neg(Q \land \neg R)$. 
+Then $\neg P \land (\neg Q \lor R)$.\\
+$\neg P \land (\neg Q \lor R) \land Q$ is equivalent to $\neg P \land (\neg Q \land Q) \lor (R \land Q)$
+this needs correction, not right also formatting
+
+
 
 
 

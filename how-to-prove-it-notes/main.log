@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.5)  14 NOV 2023 19:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.5)  15 NOV 2023 12:13
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1471,14 +1471,41 @@ runsystem(command -v pygmentize && touch main.aex)...executed.
 runsystem(rm main.aex)...executed.
 
  (./main.aux
-(./chapters/introduction/introduction.aux) (./chapters/chapter1/chapter1.aux))
+(./chapters/introduction/introduction.aux) (./chapters/chapter1/chapter1.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 13.
 LaTeX Font Info:    Trying to load font information for OML+npxmi on input line
  13.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/newpx/omlnpxmi.fd
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
 LaTeX Font Info:    ... okay on input line 13.
@@ -1710,22 +1737,22 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 
  []
 
 [14]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 174.
+(caption)                particular \caption on input line 175.
 See the caption package documentation for explanation.
 
-)) [15] (./main.aux (./chapters/introduction/introduction.aux)
+[15])) [16] (./main.aux (./chapters/introduction/introduction.aux)
 (./chapters/chapter1/chapter1.aux))
  ***********
 LaTeX2e <2023-11-01>
@@ -1740,16 +1767,16 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 runsystem(rm main.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 42023 strings out of 474272
- 849185 string characters out of 5747519
- 1952530 words of memory out of 5000000
- 63359 multiletter control sequences out of 15000+600000
+ 42053 strings out of 474272
+ 849667 string characters out of 5747519
+ 1955530 words of memory out of 5000000
+ 63372 multiletter control sequences out of 15000+600000
  598784 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,10n,120p,590b,1727s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1774,10 +1801,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2023/texmf-
 dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/local/texlive/2023/texmf-dist/fo
 nts/type1/public/newpx/pxsys.pfb></usr/local/texlive/2023/texmf-dist/fonts/type
 1/public/newtx/txsym.pfb>
-Output written on main.pdf (15 pages, 283615 bytes).
+Output written on main.pdf (16 pages, 290168 bytes).
 PDF statistics:
- 352 PDF objects out of 1000 (max. 8388607)
- 252 compressed objects within 3 object streams
- 77 named destinations out of 1000 (max. 500000)
+ 375 PDF objects out of 1000 (max. 8388607)
+ 274 compressed objects within 3 object streams
+ 94 named destinations out of 1000 (max. 500000)
  263 words of extra memory for PDF output out of 10000 (max. 10000000)
 
