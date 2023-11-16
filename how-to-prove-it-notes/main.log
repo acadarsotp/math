@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.5)  15 NOV 2023 12:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.5)  16 NOV 2023 21:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1752,8 +1752,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 175.
 See the caption package documentation for explanation.
 
-[15])) [16] (./main.aux (./chapters/introduction/introduction.aux)
-(./chapters/chapter1/chapter1.aux))
+[15] (./chapters/chapter1/exercises-truth.tex))) [16] (./main.aux
+(./chapters/introduction/introduction.aux) (./chapters/chapter1/chapter1.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
@@ -1773,10 +1773,10 @@ runsystem(rm main.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 42053 strings out of 474272
- 849667 string characters out of 5747519
+ 42061 strings out of 474272
+ 849915 string characters out of 5747519
  1955530 words of memory out of 5000000
- 63372 multiletter control sequences out of 15000+600000
+ 63376 multiletter control sequences out of 15000+600000
  598784 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,10n,120p,590b,1727s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1801,10 +1801,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2023/texmf-
 dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/local/texlive/2023/texmf-dist/fo
 nts/type1/public/newpx/pxsys.pfb></usr/local/texlive/2023/texmf-dist/fonts/type
 1/public/newtx/txsym.pfb>
-Output written on main.pdf (16 pages, 290168 bytes).
+Output written on main.pdf (16 pages, 290020 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
- 94 named destinations out of 1000 (max. 500000)
- 263 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 381 PDF objects out of 1000 (max. 8388607)
+ 279 compressed objects within 3 object streams
+ 95 named destinations out of 1000 (max. 500000)
+ 271 words of extra memory for PDF output out of 10000 (max. 10000000)
 

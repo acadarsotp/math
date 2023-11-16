@@ -256,10 +256,19 @@ We have $(\neg Q \lor P) \lor P$ which is equivalent to $\neg Q \lor P$.
 \sol \textbf{1.} 
 $P \lor (Q \land \neg P)$ is equivalent to $(P \lor Q) \land (P \lor \neg P)$, which simplifies to $P \lor Q$.\\
 \sol \textbf{2.}
-$\neg(P \lor (Q \land \neg R))$ is equivalent to $\neg P \land \neg(Q \land \neg R)$. 
-Then $\neg P \land (\neg Q \lor R)$.\\
-$\neg P \land (\neg Q \lor R) \land Q$ is equivalent to $\neg P \land (\neg Q \land Q) \lor (R \land Q)$
-this needs correction, not right also formatting
+\begin{align*}
+  \intertext{We start by simplifying the first part of the statement}
+  &\neg(P \lor (Q \land \neg R)) \\
+  &\neg P \land \neg(Q \land \neg R) \\
+  &\neg P \land (\neg Q \lor R) \\
+  \intertext{Then adding the second part}
+  &\neg P \land (\neg Q \lor R) \land Q \\
+  &\neg P \land (\neg Q \land Q) \lor (R \land Q) \\
+  &\neg P \land (R \land Q)
+\end{align*}
+
+\input{chapters/chapter1/exercises-truth.tex}
+
 
 
 
