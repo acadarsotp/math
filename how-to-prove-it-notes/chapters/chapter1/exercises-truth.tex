@@ -1,1 +1,166 @@
 \subsection{Exercises}
+
+\qs{}{
+  3. In this exercise we will use the symbol + to mean exclusive or. 
+  In other words, P + Q means “P or Q, but not both.”
+
+  (a) Make a truth table for $P + Q$.
+
+  (b) Find a formula using only the connectives $\land$, $\lor$, and $\neg$ that is
+  equivalent to $P + Q$. Justify your answer with a truth table.
+}
+
+\sol \textbf{(a)} 
+  \begin{table}[h]
+  \centering
+  \label{tab:ex3-1 }
+  \begin{tabular}{|c|c|c|}
+    \hline
+    $P$ & $Q$ & $P + Q$\\ 
+    \hline 
+    $F$ & $F$ & $F$\\   
+    $F$ & $T$ & $T$\\
+    $T$ & $F$ & $T$\\
+    $T$ & $T$ & $F$\\
+    \hline
+  \end{tabular}
+  \caption{Exercise 3.1}
+\end{table}
+
+\sol \textbf{(b)} $(P \land \neg Q) \lor (\neg P \land Q)$ 
+  \begin{table}[h]
+  \centering
+  \label{tab:ex3-2 }
+  \begin{tabular}{|c|c|c|}
+    \hline
+    $P$ & $Q$ & $(P \land \neg Q) \lor (\neg P \land Q)$\\ 
+    \hline 
+    $F$ & $F$ & $F$\\   
+    $F$ & $T$ & $T$\\
+    $T$ & $F$ & $T$\\
+    $T$ & $T$ & $F$\\
+    \hline
+  \end{tabular}
+  \caption{Exercise 3.2}
+\end{table}
+
+\qs{}{
+  4. Find a formula using only the connectives $\land$ and $\neg$ that is equivalent to $P \lor Q$.
+  Justify your answer with a truth table.
+}
+
+\sol Using De Morgan's Laws we reach $\neg (\neg P \land \neg Q)$
+  \begin{table}[h]
+  \centering
+  \label{tab:ex4 }
+  \begin{tabular}{|c|c|c|c|}
+    \hline
+    $P$ & $Q$ & $(\neg P \land \neg Q)$ & $\neg (\neg P \land \neg Q)$\\
+    \hline 
+    $F$ & $F$ & $T$ & $F$\\   
+    $F$ & $T$ & $F$ & $T$\\
+    $T$ & $F$ & $F$ & $T$\\
+    $T$ & $T$ & $F$ & $T$\\   
+    \hline
+  \end{tabular}
+  \caption{Exercise 4}
+\end{table}
+
+\qs{}{
+  *5. Some mathematicians use the symbol $\downarrow$ to mean nor. In other words,
+  $P \downarrow Q$ means “neither $P$ nor $Q$.” 
+
+  (a) Make a truth table for $P \downarrow Q$.
+
+  (b) Find a formula using only the connectives $\land$, $\lor$, and $\neg$ that is equivalent to $P \downarrow Q$.
+
+  (c) Find formulas using only the connective $\downarrow$ that are equivalent to $\neg P$, $P \lor Q$, and $P \land Q$.
+}
+
+\newpage
+
+\sol \textbf{(a)} 
+  \begin{table}[h]
+  \centering
+  \label{tab:ex5-1 }
+  \begin{tabular}{|c|c|c|}
+    \hline
+    $P$ & $Q$ & $P \downarrow Q$\\
+    \hline 
+    $F$ & $F$ & $T$\\  
+    $F$ & $T$ & $F$\\
+    $T$ & $F$ & $F$\\ 
+    $T$ & $T$ & $F$\\
+    \hline
+  \end{tabular}
+  \caption{Exercise 5.1}
+\end{table}
+
+\sol \textbf{(b)} $\neg P \land \neg Q$ 
+  \begin{table}[h]
+  \centering
+  \label{tab:ex5-2 }
+  \begin{tabular}{|c|c|c|}
+    \hline
+    $P$ & $Q$ & $\neg P \land \neg Q$\\
+    \hline 
+    $F$ & $F$ & $T$\\  
+    $F$ & $T$ & $F$\\
+    $T$ & $F$ & $F$\\ 
+    $T$ & $T$ & $F$\\
+    \hline
+  \end{tabular}
+  \caption{Exercise 5.2}
+\end{table}
+
+\sol \textbf{(c)} \textbf{1} $P \downarrow P$, \textbf{2} $(P \downarrow Q) \downarrow (P \downarrow Q)$, \textbf{3} $(P \downarrow P) \downarrow (Q \downarrow Q)$ 
+  \begin{table}[h]
+    \centering
+    \label{tab:ex5-3-1 }
+    \begin{tabular}{|c|c|}
+      \hline
+      $P$ & $P \downarrow P$\\
+      \hline 
+      $F$ & $T$\\  
+      $T$ & $F$\\
+      \hline
+    \end{tabular}
+    \caption{Exercise 5.3.1}
+  \end{table}
+
+  \begin{table}[h]
+    \centering
+    \label{tab:ex5-3-2 }
+    \begin{tabular}{|c|c|c|c|}
+      \hline
+      $P$ & $Q$ & $P \downarrow Q$ & $(P \downarrow Q) \downarrow (P \downarrow Q)$\\
+      \hline 
+      $F$ & $F$ & $T$ & $F$\\    
+      $F$ & $T$ & $F$ & $T$\\
+      $T$ & $F$ & $F$ & $T$\\
+      $T$ & $T$ & $F$ & $T$\\ 
+      \hline
+    \end{tabular}
+    \caption{Exercise 5.3.2}
+  \end{table}
+
+  \begin{table}[h]
+    \centering
+    \label{tab:ex5-3-3 }
+    \begin{tabular}{|c|c|c|c|c|}
+      \hline
+      $P$ & $Q$ & $P \downarrow P$ & $Q \downarrow Q$ & $(P \downarrow P) \downarrow (Q \downarrow Q)$\\
+      \hline 
+      $F$ & $F$ & $T$ & $T$ & $F$\\   
+      $F$ & $T$ & $T$ & $F$ & $F$\\
+      $T$ & $F$ & $F$ & $T$ & $F$\\
+      $T$ & $T$ & $F$ & $F$ & $T$\\    
+      \hline
+    \end{tabular}
+    \caption{Exercise 5.3.3}
+  \end{table}
+
+\newpage
+
+\qs{}{
+}
